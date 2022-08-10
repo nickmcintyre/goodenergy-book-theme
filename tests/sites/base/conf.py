@@ -12,7 +12,7 @@ master_doc = "index"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ["myst_nb", "sphinx_togglebutton", "sphinx_thebe"]
-html_theme = "quantecon_book_theme"
+html_theme = "goodenergy_book_theme"
 html_baseurl = "https://sphinx-book-theme.readthedocs.org"
 html_copy_source = True
 html_sourcelink_suffix = ""

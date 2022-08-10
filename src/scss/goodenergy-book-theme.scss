@@ -4,20 +4,20 @@ IMPORTS
 -----------------------------------
 */
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400');
 
 $breakpoint-xl: 1200px;
 $breakpoint-lg: 992px;
 $breakpoint-md: 768px;
 $breakpoint-sm: 576px;
 
-$color-primary: #0072bc;
-$color-secondary: #d8655e;
+$color-primary: #1e90ff;
+$color-secondary: #ed225d;
 $color-body: #444444;
 
 @import 'normalize';
 @import 'html5boilerplate';
-@import 'quantecon-defaults';
+@import 'goodenergy-defaults';
 @import 'syntax';
 @import 'tippy-themes';
 
@@ -90,7 +90,7 @@ body {
   font-weight: 400;
   padding-top: 0px;
   color: #444;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -214,7 +214,7 @@ h3,
 h4,
 h5 {
   font-weight: normal;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', serif;
   color: #444;
 }
 
@@ -233,7 +233,7 @@ h3 {
 
 h4 {
   font-size: 1.2rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #000;
 }
 
@@ -247,7 +247,7 @@ li {
 }
 
 a {
-  color: #0072bc;
+  color: #1e90ff;
   text-decoration: none;
   transition: all 0.15s linear;
   overflow-wrap: break-word;
@@ -419,7 +419,7 @@ tt {
             overflow: hidden;
             height: 30px;
             width: 105px;
-            background: url(https://assets.quantecon.org/img/menubar/qemb-logo.png) no-repeat left top;
+            background: url(/_static/ge-logo.png) no-repeat left top;
             background-size: 105px 30px;
           }
         }
@@ -597,7 +597,7 @@ tt {
     /* tableofcontents directive caption option */
     .caption-text {
       font-weight: normal;
-      font-family: 'PT Serif', serif;
+      font-family: 'Montserrat', serif;
       font-size: 1.2rem;
     }
 
@@ -609,7 +609,7 @@ tt {
   }
 
   &__footer {
-    border-top: 5px solid #0072bc;
+    border-top: 5px solid #1e90ff;
     margin: 2rem 0;
     padding: 1rem 0 0 0;
     font-size: 0.8rem;
@@ -619,7 +619,7 @@ tt {
 
 .main-index {
   h1 {
-    border-bottom: 5px solid #0072bc;
+    border-bottom: 5px solid #1e90ff;
     margin: 0 0 2rem 0;
     padding: 0 0 1rem 0;
     font-weight: 700;
@@ -667,7 +667,7 @@ tt {
 
   &__header {
     margin: 0 0 1rem 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 700;
     font-size: 1rem;
   }
@@ -703,7 +703,7 @@ tt {
     /* tableofcontents directive caption option */
     .caption-text {
       font-weight: normal;
-      font-family: 'PT Serif', serif;
+      font-family: 'Montserrat', serif;
       //font-size: 1.7rem;
     }
     .caption {
@@ -811,7 +811,7 @@ tt {
       margin: 0 -1rem;
       padding: 0.25rem 2rem;
       font-weight: 700;
-      background-color: #0072bc26;
+      background-color: #1e90ff26;
     }
   }
 
@@ -862,7 +862,7 @@ tt {
     color: #555;
     margin-left: 6px;
     padding: 0 4px 0 4px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 0.8em;
   }
 
@@ -926,7 +926,7 @@ tt {
     color: #555;
     margin-left: 6px;
     padding: 0 4px 0 4px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 0.8rem;
   }
 
@@ -955,7 +955,7 @@ tt {
   }
 
   a .math {
-    color: #0072bc;
+    color: #1e90ff;
   }
 
   div.math {
@@ -968,7 +968,7 @@ tt {
   }
 
   a .MathJax {
-    color: #0072bc;
+    color: #1e90ff;
   }
 
   .figure {
@@ -1087,7 +1087,7 @@ div.cell {
   }
   p {
     margin: 0rem;
-    color: #0072bc;
+    color: #1e90ff;
     &:hover {
       text-decoration: underline;
       cursor: pointer;

@@ -1,8 +1,8 @@
 # -- Project information -----------------------------------------------------
 
-project = "Quantecon Book Theme"
-copyright = "2020"
-author = "The Quantecon Project"
+project = "Good Energy Book Theme"
+copyright = "2022"
+author = "Nick McIntyre"
 
 master_doc = "index"
 
@@ -46,12 +46,12 @@ numfig = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "quantecon_book_theme"
-html_logo = "_static/qe-logo.png"
-html_title = "Quantecon Book Theme"
+html_theme = "goodenergy_book_theme"
+html_logo = "_static/ge-logo.png"
+html_title = "Good Energy Book Theme"
 html_copy_source = True
 html_sourcelink_suffix = ""
-html_favicon = "_static/qe-logo.png"
+html_favicon = "_static/ge-logo.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -65,7 +65,7 @@ thebe_config = {
 
 html_theme_options = {
     "path_to_docs": "docs",
-    "repository_url": "https://github.com/QuantEcon/quantecon-book-theme",
+    "repository_url": "https://github.com/nickmcintyre/goodenergy-book-theme",
     # "repository_branch": "gh-pages",  # For testing
     "launch_buttons": {
         "binderhub_url": "https://mybinder.org",
@@ -78,7 +78,7 @@ html_theme_options = {
     "use_issues_button": True,
     "use_repository_button": True,
     "expand_sections": ["reference/index"],
-    "logo_url": "https://quantecon.org"
+    "logo_url": "https://goodenergy.cc"
     # For testing
     # "home_page_in_toc": True,
     # "single_page": True

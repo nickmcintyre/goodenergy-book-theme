@@ -17,24 +17,24 @@ interactive book. It has the following primary features:
 
 ## Get started
 
-To get started with `quantecon-book-theme`, first install it with `pip`:
+To get started with `goodenergy-book-theme`, first install it with `pip`:
 
 ```
-pip install quantecon-book-theme
+pip install goodenergy-book-theme
 ```
 
 then, activate the theme in your Sphinx configuration (`conf.py`):
 
 ```
 ...
-html_theme = "quantecon_book_theme"
+html_theme = "goodenergy_book_theme"
 ...
 ```
 
 This will activate the Sphinx Book Theme for your documentation. Note that you may
 need to change your `html_theme_options` configuration depending on your previous
 theme. See the pages to the left for information about what you can configure with
-`quantecon-book-theme`.
+`goodenergy-book-theme`.
 
 ## Site contents
 
@@ -47,7 +47,7 @@ Controlling page elements <layout>
 notebooks
 launch
 contributing
-GitHub repository <https://github.com/quantecon/quantecon-book-theme>
+GitHub repository <https://github.com/nickmcintyre/goodenergy-book-theme>
 ```
 
 ## Reference pages

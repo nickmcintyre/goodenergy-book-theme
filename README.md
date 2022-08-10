@@ -7,14 +7,14 @@ To use this theme in [Jupyter Book](https://github.com/executablebooks/jupyter-b
 
 1. Install the theme
 
-  `pip install git+https://github.com/QuantEcon/quantecon-book-theme.git`
+  `pip install git+https://github.com/nickmcintyre/goodenergy-book-theme.git`
 
 2. Add the theme to your `_config.yml` file:
 
   ```yaml
   sphinx:
       config:
-          html_theme: quantecon_book_theme
+          html_theme: goodenergy_book_theme
   ```
 
 ## Updating Fixtures for Tests

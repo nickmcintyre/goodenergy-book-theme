@@ -35,6 +35,9 @@ document.addEventListener("DOMContentLoaded", function(){
     $sidebar = $('.qe-sidebar'),
     $sidebarToggle = $('.btn__sidebar');
 
+    $body.addClass('dark-theme');
+    $('.btn__contrast').addClass('btn-active');
+
     // Toolbar contrast toggle
 
     function setContrast() {

@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 from pathlib import Path
 
-lines = Path("quantecon_book_theme").joinpath("__init__.py")
+lines = Path("goodenergy_book_theme").joinpath("__init__.py")
 for line in lines.read_text().split("\n"):
     if line.startswith("__version__ ="):
         version = line.split(" = ")[-1].strip('"')
         break
 
 setup(
-    name="quantecon-book-theme",
+    name="goodenergy-book-theme",
     version=version,
     python_requires=">=3.6",
     author="Project Jupyter Contributors",
@@ -59,10 +59,10 @@ setup(
         ],
     },
     entry_points={
-        "sphinx.html_themes": ["quantecon_book_theme = quantecon_book_theme"]
+        "sphinx.html_themes": ["goodenergy_book_theme = goodenergy_book_theme"]
     },
     package_data={
-        "quantecon_book_theme": [
+        "goodenergy_book_theme": [
             "theme.conf",
             # Templates
             "*.html",

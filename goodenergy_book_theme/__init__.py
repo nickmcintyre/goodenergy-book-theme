@@ -11,7 +11,7 @@ from sphinx.util.osutil import ensuredir
 from .launch import add_hub_urls
 
 __version__ = "0.3.1"
-"""quantecon-book-theme version"""
+"""goodenergy-book-theme version"""
 
 SPHINX_LOGGER = logging.getLogger(__name__)
 MESSAGE_CATALOG_NAME = "booktheme"
@@ -276,7 +276,7 @@ def setup(app):
     app.connect("html-page-context", add_hub_urls)
     app.connect("builder-inited", add_static_path)
 
-    app.add_html_theme("quantecon_book_theme", get_html_theme_path())
+    app.add_html_theme("goodenergy_book_theme", get_html_theme_path())
     app.connect("html-page-context", add_to_context)
 
     return {
