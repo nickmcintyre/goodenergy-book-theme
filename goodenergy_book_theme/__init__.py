@@ -234,7 +234,7 @@ def add_to_context(app, pagename, templatename, context, doctree):
             branch = config_theme.get("repository_branch")
             if not branch:
                 # Explicitly check in cae branch is ""
-                branch = "master"
+                branch = "main"
             relpath = config_theme.get("path_to_docs", "")
             org, repo = repo_url.strip("/").split("/")[-2:]
             context.update(
